@@ -43,6 +43,7 @@ public class Example01 {
 			System.out.println("Informe um valor para posição de índice "+i);
 			listaNumeros[i] = t.nextInt();
 			System.out.println("O valor é "+listaNumeros[i]);
+
 		}
 		
 		int maiorValor = listaNumeros[0];
@@ -56,11 +57,14 @@ public class Example01 {
 			if(listaNumeros[i] < menorValor) {
 				menorValor = listaNumeros[i];
 			}
+			
+			
 		}
 		
 		
 		System.out.println("O maior valor é "+maiorValor);
 		System.out.println("O menor valor é "+menorValor);
+	
 		
 		/*
 		String [] listaNomes = new String[3];
